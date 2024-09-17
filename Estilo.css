@@ -4,7 +4,7 @@ html{
 body {
     padding: 0px;
     margin-right: 0px;
-    background-color: aquamarine;
+    background-color: #4950bc;
 }
 
 ul {
@@ -39,7 +39,7 @@ nav ul li a {
 
 nav ul li a:hover {
     opacity: 50%;
-    color: red;
+    color: rgb(43, 1, 255);
 }
 
 section {
@@ -49,13 +49,13 @@ section {
 /* Sobre */
 
 .container-sobre {
-    background-color: #95b3a1;
-    color: black;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     height: 600px;
     width: auto;
     text-align: center;
     align-items: center;
-    font-family: 'Times New Roman';
+    font-family: 'ARIAL';
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
@@ -95,7 +95,7 @@ section {
 }
 
 .fa-youtube {
-    background-color: red;
+    background-color: rgb(0, 13, 255);
     color: white;
 }
 
@@ -127,9 +127,13 @@ section {
 }
 
 .img-projeto {
-    width: auto;
+    width: 200px;
     height: 100px;
     padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+
 }
 
 button {
@@ -146,14 +150,14 @@ th {
 }
 
 .container-Contato {
-    background-color: #95b3a1;
-    color: black;
+    background-color: #4950bc;
+    color: rgb(255, 255, 255);
     height: 700px;
     width: auto;
     align-items: center;
     font-family: 'Times New Roman';
     border-radius: 20px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 12px rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -170,8 +174,8 @@ input {
 }
 
 .container-Contato button {
-    color: white;
-    background-color: green;
+    color: #4950bc;
+    background-color: #ffffff;
     border-radius: 25px;
     width: 200px;
     height: 50px;
@@ -190,3 +194,4 @@ input {
     font-size: 20px;
     align-items: center;
 }
+
